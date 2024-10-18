@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .sparent p{
+            color: blue;
+            background-color:aliceblue;
+        }
+        .sparent>p{
+            color: brown;
+            background-color: chartreuse;
+        }
+        .parent>p{
+            color: coral;
+            background-color: darkblue;
+        }
+        .child p{
+            color: cyan;
+            background-color: indigo;
+        }
+
+        
+        H1~P{
+            color:white;
+            background-color: black;
+        }
+        H1+P{
+            color: blue;
+            background-color: aqua;
+        }
+        h2,i{
+            color: brown;
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <div class="sparent">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, rerum.
+        </p>
+        <div class="parent">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, autem pariatur. Similique eligendi et voluptatibus autem quidem necessitatibus perferendis ipsa.</p>
+            <div class="child">
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nam, rem deserunt culpa libero, nobis dolorem minus excepturi natus mollitia temporibus cumque esse illo possimus, maxime doloribus facere veniam ipsam?</p>
+            </div>
+        </div>
+    </div>
+    <h1>SIBBLINGS</h1>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti tempora ipsa possimus eum voluptate nesciunt sint, molestias eos tempore error!</P>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum vero similique delectus iure neque mollitia perspiciatis et saepe inventore ex voluptatum, fugit consectetur reprehenderit dignissimos hic aliquid, sint eius provident.</P>
+    <P>Lorem ipsum dolor sit amet.</P>
+    <I>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id quod iusto nemo ullam ipsam dolore ex, neque numquam inventore voluptates molestias ad officia minima quaerat alias vero autem dicta temporibus!</I>
+    <B>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis ipsa, quasi magnam aperiam totam accusantium!</B>
+<br><br>
+    <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis amet numquam, porro culpa enim consectetur nemo, vitae eum quod inventore cum, aut ex cumque incidunt tempore quos dolore eos fuga.</i>
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos amet placeat recusandae voluptatibus illum quo non omnis, itaque dicta repudiandae consequatur labore reiciendis molestias, odit voluptate possimus quisquam! Odit, similique!</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A vitae at, suscipit ullam et culpa nemo officia ab ducimus nisi distinctio magnam totam beatae? Ad minima inventore repellat dicta quaerat.</p>
+</body>
+</html>

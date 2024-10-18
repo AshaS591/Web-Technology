@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="./first.css">
+    <style>
+        legend{
+            color: crimson;
+            background-color: chartreuse;
+            font-weight: bolder;
+            font-size: 35px;
+            font-family: 'Times New Roman', Times, serif;
+            padding: 2px;;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <legend>LOGIN FORM</legend>
+    <form action="" style="border-style: dashed;padding: 5%;">
+        <label for="">
+            NAME :<input type="text" required>
+            <BR></BR>
+        <label for="">
+            PHONE NO :<input type="tel" pattern="[0-9]{10}" required>
+        </label><BR></BR>
+        <label>
+            AGE :<input type="number">
+        </label><BR></BR>
+        
+        <label for="">
+            GMAIL :<input type="email">
+        </label>
+        <BR></BR>
+        <label for="">
+            GENDER :
+            <label><input type="radio" name="GD">FEMALE</label>
+            <label><input type="radio" name="GD">MALE</label>
+            <label><input type="radio" name="GD">OTHERS</label>
+        </label><BR></BR>
+        <label for="">
+            ADDRESS :<textarea rows="5" cols="20">GIVE ADDRESS</textarea>
+        </label><BR></BR>
+        <label for="">
+            YOUR GRADE :
+            <select>
+                <option>O</option>
+                <option>A+</option>
+                <option>A</option>
+                <option>B+</option>
+            </select><BR></BR>
+        </label>
+        <label for="">
+            SKILLS :
+            <input type="checkbox">PYTHON
+            <input type="checkbox">SQL
+            <input type="checkbox">HTML
+            <input type="checkbox">DBMS
+        </label><BR></BR>
+        <label>
+            <button>LOGIN</button>
+        </label><BR></BR>
+        <label>
+           <input type="submit">
+        </label><BR></BR>
+        <label>
+           <input type="reset">
+        </label>
+    </form>
+</body>
+</html>

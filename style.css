@@ -1,0 +1,10 @@
+h1{
+    color: rgb(150, 9, 124);
+    background-color: rgb(107, 177, 239);
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    color: crimson;
+    background-color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+}
