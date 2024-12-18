@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        /* first occurence of b tag gets cornflower  */
+        b:first-child{
+            color: cornflowerblue;
+        }
+        /* last occurence of b tag gets cornflower  */
+        b:last-child{
+            color: aqua;
+        }
+        /* second occurence of b tag gets cornflower  */
+        b:nth-child(2){
+            color: red;
+        }
+
+        /* if in between the occurence any other tag came ..it will not work  */
+    </style>
+</head>
+<body>
+    <!-- Inside div it works  -->
+    <div>
+        <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque odio asperiores at dolore consectetur dignissimos maiores necessitatibus ducimus neque velit eos suscipit fugiat quod facere molestias expedita, similique aut! Modi.</b>
+        <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque odio asperiores at dolore consectetur dignissimos maiores necessitatibus ducimus neque velit eos suscipit fugiat quod facere molestias expedita, similique aut! Modi.</b>
+        <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque odio asperiores at dolore consectetur dignissimos maiores necessitatibus ducimus neque velit eos suscipit fugiat quod facere molestias expedita, similique aut! Modi.</b>
+        <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque odio asperiores at dolore consectetur dignissimos maiores necessitatibus ducimus neque velit eos suscipit fugiat quod facere molestias expedita, similique aut! Modi.</b>
+        <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque odio asperiores at dolore consectetur dignissimos maiores necessitatibus ducimus neque velit eos suscipit fugiat quod facere molestias expedita, similique aut! Modi.</b>
+    </div>
+</body>
+</html>
