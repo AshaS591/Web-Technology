@@ -1,0 +1,23 @@
+*
+{
+    background: url(./aeroplane.jpg);
+}
+header{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    height: 90px;
+    width: 1200px;
+    align-items: center;
+   
+    margin: 0%;
+    padding: 0%;
+    border: 0px;
+    /* background:linear-gradient(gainsboro,gainsboro); */
+    
+}
+.img{
+    /* display: inline-block; */
+    height: 100px;
+    width: 150px;
+}
